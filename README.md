@@ -14,5 +14,5 @@ by topic, easy to hard. Every problem is written as a function.
 - 07 Functions
 - 08 Error Handling
 
-## 🗂️Structure
+## Structure
 Each topic is divided into 3 files — `easy.py` `medium.py` `hard.py`
