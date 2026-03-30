@@ -18,10 +18,10 @@ def squares_generator(n):
 
 n = 1_000_000
 gen = squares_generator(n)
-print(f"Generator size: {sys.getsizeof(gen)} bytes")  # ~120 bytes
+print(f"Generator size: {sys.getsizeof(gen)} bytes") 
 
 squares_list = [i * i for i in range(1, n + 1)]
-print(f"List size: {sys.getsizeof(squares_list)} bytes")  # ~8 million bytes
+print(f"List size: {sys.getsizeof(squares_list)} bytes")  
 
 
 #Convert this list comprehension into a generator expression and find the sum of even numbers from 1 to 1,000,000 without creating the entire list.
@@ -51,7 +51,7 @@ def flatten(nested_list):
             yield item
 
 nested = [1, [2, 3], [4, [5, 6]], 7]
-print(list(flatten(nested)))  # [1, 2, 3, 4, 5, 6, 7]
+print(list(flatten(nested)))  
 
 #Create a generator running_average() that accepts numbers via send() and yields the running average.
 
